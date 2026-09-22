@@ -51,8 +51,8 @@ Every change goes through a test branch, QA, and client approval before it touch
 ## 📦 Selected work
 
 **Purchase-on-demand pipeline** — for a business with no owned inventory, only what was sold and won gets bought. A confirmed quotation generates its purchase order automatically and carries its analytic distribution (cost center / project) through to a readable accounting export.
-- 50 active purchase orders generated since June 2026
-- 17 of 17 eligible lines carry their analytic distribution automatically since install (Sep 2026, small sample)
+- 50 active purchase orders generated since June 2026, verified by direct query against production (22/09/2026)
+- 35 of 37 eligible lines (94.6%) carry analytic distribution automatically as of 22/09/2026; the 2 exceptions predate the module's install date
 
 **Integrity & audit controls**
 - Retroactive-edit lock on chatter notes to preserve audit evidence, enforced at the ORM level, `sudo()` included
