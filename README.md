@@ -3,7 +3,7 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=220&section=header&text=Juan%20David%20Villasmil&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Odoo%20Developer%20%7C%20Process%20Automation%20%7C%20Python&descFontSize=18&descColor=8b949e&descAlignY=62" width="100%" />
 
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=13+custom+modules+in+production+on+Odoo.sh;From+requirement+to+production%3A+analysis%2C+brief%2C+QA;ERP+automation+with+Python+%26+PostgreSQL;Now+learning%3A+Generative+AI+%26+LLM+engineering" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=15+custom+modules+in+production+on+Odoo.sh;From+requirement+to+production%3A+analysis%2C+brief%2C+QA;ERP+automation+with+Python+%26+PostgreSQL;Now+learning%3A+Generative+AI+%26+LLM+engineering" alt="Typing SVG" />
   </a>
 </div>
 
@@ -23,7 +23,7 @@
     "B.Eng. Industrial Engineering — Universidad Rafael Urdaneta (2023)",
     "B.Eng. Computer Engineering — Universidad Rafael Urdaneta (2026)"
   ],
-  "production_track": "13 custom Odoo modules live on Odoo.sh",
+  "production_track": "15 custom Odoo modules developed, 14 live in production on Odoo.sh",
   "specialties": [
     "Odoo customization (Python, ORM, JS patches)",
     "Procurement & accounting automation",
@@ -59,6 +59,12 @@ Every change goes through a test branch, QA, and client approval before it touch
 - Lock on new analytic entries against closed analytic accounts
 
 **Operations tooling** — CRM-to-Discuss notifications for won opportunities, meeting-room management with granular access, product-code validation, and UX fixes on native chatter.
+
+## 🤖 Personal project: odoo-agent (Clodoo)
+
+Claude Code–based agent for Odoo 17 development. It reads the repository, audits branches for deprecated patterns and inheritance risks, connects to Odoo.sh over SSH, and proposes commits. Safety rules live in `CLAUDE.md` (dev branch only, custom modules only, no push or merge), and a session log gives it memory between runs. I created it and maintain it, and I use it in my day-to-day work at Proyelec.
+
+[View the repository →](https://github.com/jdvillasmil/odoo-agent)
 
 ## 🧰 Stack
 
