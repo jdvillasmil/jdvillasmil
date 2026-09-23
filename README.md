@@ -48,12 +48,17 @@ Ticket → requirement analysis → flow diagram → technical brief
 
 Every change goes through a test branch, QA, and client approval before it touches `main`.
 
-## 📦 Selected work
-
 **Purchase-on-demand pipeline** — for a business with no owned inventory, only what was sold and won gets bought. A confirmed quotation generates its purchase order automatically and carries its analytic distribution (cost center / project) through to a readable accounting export.
+
+```mermaid
+graph LR
+    A[Confirmed Sale Line] -->|meets award criteria| B[Auto-generated PO]
+    B --> C[Analytic Distribution Inherited]
+    C --> D[Readable Accounting Export]
+```
+
 - 50 active purchase orders generated since June 2026, verified by direct query against production (22/09/2026)
 - 35 of 37 eligible lines (94.6%) carry analytic distribution automatically as of 22/09/2026; the 2 exceptions predate the module's install date
-
 **Integrity & audit controls**
 - Retroactive-edit lock on chatter notes to preserve audit evidence, enforced at the ORM level, `sudo()` included
 - Lock on new analytic entries against closed analytic accounts
