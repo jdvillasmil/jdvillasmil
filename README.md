@@ -82,4 +82,4 @@ Claude Code–based agent for Odoo 17 development. It reads the repository, audi
 ## 📫 Contact
 
 - Email: juanvillasmilopez@gmail.com
-- LinkedIn: https://linkedin.com/in/jvillasmil
+- LinkedIn: https://linkedin.com/in/jdvillasmil
